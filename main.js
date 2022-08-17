@@ -100,6 +100,7 @@ let keysDown = {};
         ctx.drawImage(backgroundImage,0,0,width,height);
         ctx.drawImage(spaceshipImage,spaceshipX,spaceshipY,spaceshipImage.width,spaceshipImage.height);
         
+        ctx.drawImage(enemyImage,100,100,enemyImage.width,enemyImage.height);
         for(let i=0;i<bullets.length;i++){
             ctx.drawImage(bulletImage,bullets[i].x,bullets[i].y,10,10);
         }
